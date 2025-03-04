@@ -1,0 +1,127 @@
+:root {
+  --primarily-color: #5c715e;
+  --secondary-color: #ddeedf;
+  --third-color: #f2f9f1;
+  --fourth-color: #b6cdbd;
+  --primary-font: Didot;
+  --secondary-font: Helvetica, sans-serif;
+}
+
+.aboutbackground {
+  background-color: var(--fourth-color);
+}
+
+h1,
+h2,
+h3,
+p {
+  font-family: var(--primary-font);
+  color: var(--primarily-color);
+}
+
+h2,
+h3,
+p {
+  font-family: var(--secondary-font);
+}
+
+.container {
+  padding-top: 300px;
+  padding-right: 50px;
+  padding-left: 50px;
+  justify-content: center;
+}
+
+img {
+  width: 500px;
+  height: auto;
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.button-container button {
+  display: flex;
+  text-decoration: none;
+  color: var(--primarily-color);
+  background-color: var(--secondary-color);
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 30px;
+  font-family: var(--secondary-font);
+  cursor: grab;
+  transition: background-color 0.5s ease, opacity 0.5s ease;
+}
+
+.button-container .buttontwo {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  color: var(--primarily-color);
+  background-color: var(--secondary-color);
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 30px;
+  font-family: var(--secondary-front);
+  cursor: grab;
+  transition: background-color 0.5s ease, opacity 0.5s ease;
+}
+button:hover {
+  background-color: var(--primarily-color);
+  opacity: 0.5;
+  color: var(--secondary-color);
+}
+
+.container {
+  padding: 200px; /* Adjust this value as needed */
+  margin: auto;
+  max-width: 100%;
+}
+
+.paragraph2 {
+  border: solid 2px var(--primarily-color);
+  justify-content: center;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+}
+
+.collabh3 {
+  margin: 0;
+  padding: 50px;
+  font-size: 24px;
+  justify-content: center;
+}
+
+.buttontwo {
+  background-color: var(--primarily-color) !important;
+  color: var(--secondary-color) !important;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-family: var(--secondary-font);
+  cursor: pointer;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.buttontwo:hover {
+  background-color: var(--fourth-color) !important;
+  color: var(--primarily-color) !important;
+  font-weight: 300px !important;
+}
+
+.buttontwo {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 14px;
+}
